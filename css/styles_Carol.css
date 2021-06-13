@@ -1,0 +1,284 @@
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.body_intro {
+    background: rgb(2,115,129);
+    background: linear-gradient(90deg, rgba(2,115,129,1) 26%, rgba(79,182,209,1) 100%);
+    height: 1000px;
+}
+.body_intro2 {
+    background: rgb(2,115,129);
+    background: linear-gradient(90deg, rgba(2,115,129,1) 26%, rgba(79,182,209,1) 100%);
+}
+
+.body_intro3 {
+    background: rgb(2,115,129);
+    background: linear-gradient(90deg, rgba(2,115,129,1) 26%, rgba(79,182,209,1) 100%);
+}
+
+.logo_intro {
+    height: auto;
+    display: block;
+    width: 70%;
+
+}
+
+.logo{
+    height: auto;
+    display: block;
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 6%;
+}
+
+.bem_vindo {
+    color: white;
+}
+
+.p_intro {
+    text-align: center;
+    margin: 0 30px 0 30px;
+    color: white;
+}
+
+.texto_intro {
+    padding: 1% 0 1% 0;
+    width: 100%;
+    margin: 0 0 40px 0;
+    position: relative;
+    left: 0;
+}
+
+.icone_img {
+    width: 20%;
+    height: auto;
+}
+
+.div_icones_intro {
+    padding-right: 7.5%;
+    margin: 4% -30px 0 8px;
+}
+
+.button_intro {
+    background-color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 4%;
+    margin-top: 4%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: black;
+    border: 2px solid #027381;
+    border-radius: 8px;
+    top: 20%;
+}
+
+
+.button_intro:hover {
+    background-color: dodgerblue;
+    color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.div_participar {
+    margin: 0;
+    background-color: white;
+    width: 98%;
+    height: 12%;
+    border-radius: 20px 20px 0 0;
+    position: absolute;
+    left: 49%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 97%;
+}
+/*/-----------------------------------------------> LOGIN <----------------------------------------------------------/*/
+
+.seta_recua{
+    height: auto;
+    display: block;
+    width: 9%;
+    margin-top: 5%;
+}
+
+
+form {
+    margin-top: 20%;
+}
+
+.label_login{
+    color: white;
+}
+
+/* Full-width inputs */
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 40px;
+    margin-top: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.label_login_pass {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+/* Set a style for all buttons */
+.btn_login {
+    background-color: #22F09F;
+    color: white;
+    padding: 18px 20px;
+    margin: 8px 0;
+    border: 2px solid #22F09F;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Add a hover effect for buttons */
+.btn_login:hover {
+    opacity: 0.8;
+    border: 4px solid #22F09F;;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    margin-bottom: 5%;
+    margin-top: -5%;
+    width: 20%;
+    height: auto;
+
+}
+
+/* Add padding to containers */
+.login_container {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    margin-top: 0px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+span a:link{ /*/ dps falta adicionar o link/*/
+    color: #22F09F;
+}
+
+/*/-----------------------------------------> FORNECEDOR OU VOLUNTÁRIO <---------------------------------------------/*/
+
+.p_forn_ou_vol{
+    color: white;
+    margin-top: 29%;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.div_btns_forn_vol{
+    width: 100%;
+   /*/ padding: 12px 20px;/*/
+    margin-bottom: 40px;
+    margin-top: 10%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.btn_forn_vol{
+    background-color: white;
+    border: none;
+    padding: 27px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+   /*/ margin: 4px 2px;/*/
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-bottom: 90px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.btn_voluntario{
+    margin-bottom: 0;
+}
+
+.btn_forn_vol:hover{
+    background-color: lightseagreen;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 5px solid white;
+    border-radius: 8px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.img_forn_vol{
+    width: 20%;
+    height: auto;
+    float: left;
+    margin-left: 9%;
+}
+
+/*/-----------------------------------------> REGISTO <---------------------------------------------/*/
+.foto_registo{
+    margin-bottom: 5%;
+    margin-top: -5%;
+    width: 50%;
+    height: auto;
+}
+
+.link_terms_conds:link{
+    color: #22F09F;
+}
+
+.label_pass_registo{
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 40px;
+    margin-top: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 15px
+}
+
+input[type=checkbox] {
+    margin-bottom: 15px;
+}
