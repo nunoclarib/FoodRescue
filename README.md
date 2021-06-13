@@ -1,3 +1,3 @@
 # FoodRescue
 
-/connections folder to the BD missing! :)
+/connections folder to the DB missing! :)
