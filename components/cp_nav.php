@@ -43,6 +43,13 @@
                 <li class="sidebar-nav-item ml-1">
                     <a class="js-scroll-trigger" href="chat_contactos.php">Chat</a>
                 </li>
+                <?php 
+                if($_SESSION['perfil']== 1){
+                ?>
+                <li class="sidebar-nav-item ml-1">
+                    <a class="js-scroll-trigger" href="pages/index.php">Adm</a>
+                </li>
+                <?php }?>
                 <br>
                 <li class="sidebar-nav-item ml-5">
                     <a class="js-scroll-trigger text-white ml-0" href="scripts/sc_logout.php"><span class="bg-danger p-2 logoutborder"><i
